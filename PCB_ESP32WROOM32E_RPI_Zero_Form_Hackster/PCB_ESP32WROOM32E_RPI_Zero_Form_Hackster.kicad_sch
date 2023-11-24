@@ -1,0 +1,45 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 98601396-516b-4f99-b971-aae10874eaa3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 88.392 72.517) (xy 93.726 72.517))
+    (stroke (width 0) (type default))
+    (uuid 5167541c-52b7-453a-bc2a-052c21f4ff55)
+  )
+
+  (label "5V" (at 88.392 72.517 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid faa4cad9-bc2d-4de0-88f4-11204cd6131b)
+  )
+
+  (sheet (at 93.726 57.785) (size 30.6324 44.323) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 575b79b4-f54d-425d-b660-51df37291805)
+    (property "Sheetname" "ESP32S3_Minsys" (at 93.726 57.0734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ESP32S3_Minsys.kicad_sch" (at 93.726 102.6926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "5V" input (at 93.726 72.517 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid bfd41124-63a6-4740-929f-6c196dfe6adf)
+    )
+    (instances
+      (project "PCB_ESP32WROOM32E_RPI_Zero_Form_Hackster"
+        (path "/98601396-516b-4f99-b971-aae10874eaa3" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

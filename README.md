@@ -1,2 +1,0 @@
-# Hackster_Build2gether
-Hackster_Build2gether contest repo
